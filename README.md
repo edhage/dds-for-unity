@@ -23,12 +23,12 @@ This you have to do load the DDS functionality.
 3. Select the package DDSforUnity.2019.unitypackage and click **Open**
 4. A dialog window with all the contents of the package pops up, select all files (if not already) and click **Import**.
 
-![Import Unity package](https://bitbucket.org/edhage/dds-for-unity/src/master/media/window_import_DDS_for_unity.png)!
+![Import Unity package](media/window_import_DDS_for_unity.png)!
 
 5. The package is loaded and as a result the folder DDS is created under the Assets folder.
 6. In the menu bar als the option DDS appears. Click DDS --> Vortex and a window will appear called DefineDDS.
 
-![Set Vortex DDS settings in Unity](https://bitbucket.org/edhage/dds-for-unity/src/master/media/define_dds_window.png)
+![Set Vortex DDS settings in Unity](media/define_dds_window.png)
 
 7. Here you must fill in the OSPL Home Directory and the OSPL Config file. This information will be used to build a bat-file that automatically starts the built app with DDS-support.
 8. Some dll-s have been loaded which only take effect if the Editor is re-started. First make this bat-file.
