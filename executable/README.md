@@ -5,14 +5,14 @@ This application contains some of the functionality of the famous [TurtleSim](ht
 Basically this is a TurtleSim version with a 3D-look to showcase some of its capabilities. 
 
 Shown here a picture of the 3D TurtleSim with overlay the old familiar TurtleSim from ROS.
-![Turtle Example](media/turtlesim_3d.png)
+![Turtle Example](../media/turtlesim_3d.png)
 
 Because Unity3D is a game-engine, it is quit easy to add a camera. So I could not resist the temptation and added another perspective. In the on-screen GUI you can toggle the camera-perspective. 
 This camera moves with the turtle. With the mouse scrollbar you can zoom in and out, and while the mouse left button is pressed you can change your perspective by moving the mouse about (only in the below perspective).
 
 The turtle is a bit distorted because of water diffraction, this is actually a dynamic effect. You see the water move.
 
-![Turtle Perspective](media/turtlesim_3d_perspective.png)
+![Turtle Perspective](../media/turtlesim_3d_perspective.png)
 
 
 The source-code uses some commercial Unity assets, which prohibits me from providing the source-code of the application. 
@@ -90,7 +90,7 @@ I put a camera on top of the turtle ("wild-cam") and it publishes a 5Hz compress
 
 The headcam is shown here:
 
-![Headcam streaming](media/headcam_on_turtle_small.png)
+![Headcam streaming](../media/headcam_on_turtle_small.png)
 
 This is a feature which was not in the original TurtleSim. 
 
